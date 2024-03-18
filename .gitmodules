@@ -1,0 +1,4 @@
+[submodule "kicad_misc_libs"]
+	path = kicad_misc_libs
+	url = git@github.com:mrnuke/kicad_misc_libs.git
+	branch = master
