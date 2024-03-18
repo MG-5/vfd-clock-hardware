@@ -6,14 +6,14 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.09999999999999999,
-        "copper_line_width": 0.19999999999999998,
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
-        "courtyard_line_width": 0.049999999999999996,
+        "courtyard_line_width": 0.05,
         "dimension_precision": 4,
         "dimension_units": 3,
         "dimensions": {
@@ -24,7 +24,7 @@
           "text_position": 0,
           "units_format": 1
         },
-        "fab_line_width": 0.09999999999999999,
+        "fab_line_width": 0.1,
         "fab_text_italic": false,
         "fab_text_size_h": 1.0,
         "fab_text_size_v": 1.0,
@@ -43,9 +43,9 @@
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.7999999999999999,
-        "silk_text_size_v": 0.7999999999999999,
-        "silk_text_thickness": 0.09999999999999999,
+        "silk_text_size_h": 0.8,
+        "silk_text_size_v": 0.8,
+        "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.0
@@ -120,16 +120,16 @@
         "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.19999999999999998,
-        "min_microvia_drill": 0.09999999999999999,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7999999999999999,
+        "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.19999999999999998,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.15,
-        "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.44999999999999996,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.45,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -447,7 +447,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "led-bar.kicad_pro",
+    "filename": "vfd-clock.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -471,14 +471,14 @@
       },
       {
         "bus_width": 12,
-        "clearance": 1.5,
+        "clearance": 0.65,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "190V",
+        "name": "55V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
@@ -491,7 +491,18 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/high-side-switch/V_{Out}": "55V",
+      "/high-side-switch1/V_{Out}": "55V",
+      "/high-side-switch2/V_{Out}": "55V",
+      "/high-side-switch3/V_{Out}": "55V",
+      "/high-side-switch4/V_{Out}": "55V",
+      "/high-side-switch5/V_{Out}": "55V",
+      "/high-side-switch6/V_{Out}": "55V",
+      "Net-(D7-A)": "55V",
+      "Net-(D7-K)": "55V",
+      "Vdrive": "55V"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -646,8 +657,36 @@
   },
   "sheets": [
     [
-      "bad0a5fb-fa82-44f9-9177-ecc0a1269d10",
-      ""
+      "9acf7c96-4cba-4385-b538-330794fa905a",
+      "Root"
+    ],
+    [
+      "78450407-d188-43d3-96c8-9504fdc8fc86",
+      "high-side-switch"
+    ],
+    [
+      "f2e264c0-4702-40d2-9319-769266964fe3",
+      "high-side-switch1"
+    ],
+    [
+      "7b5ce5ea-69bf-4725-a39e-0892903b91fd",
+      "high-side-switch2"
+    ],
+    [
+      "e4931a44-739d-48df-8672-c4f9c084bdb4",
+      "high-side-switch3"
+    ],
+    [
+      "cae5650a-d8ae-4bbc-be00-e09e0b20edf1",
+      "high-side-switch4"
+    ],
+    [
+      "bc76f129-640e-4e25-8a5f-d42b3960238f",
+      "high-side-switch5"
+    ],
+    [
+      "e29ece96-0edc-4d6c-b1f7-730433d9b9ab",
+      "high-side-switch6"
     ]
   ],
   "text_variables": {}
