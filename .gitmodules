@@ -1,4 +1,3 @@
-[submodule "kicad_misc_libs"]
-	path = kicad_misc_libs
-	url = git@github.com:mrnuke/kicad_misc_libs.git
-	branch = master
+[submodule "Eagle-and-KiCAD-Nixie-Libs"]
+	path = Eagle-and-KiCAD-Nixie-Libs
+	url = ../../judge2005/Eagle-and-KiCAD-Nixie-Libs.git

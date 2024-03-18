@@ -6,14 +6,14 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.09999999999999999,
-        "copper_line_width": 0.19999999999999998,
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
-        "courtyard_line_width": 0.049999999999999996,
+        "courtyard_line_width": 0.05,
         "dimension_precision": 4,
         "dimension_units": 3,
         "dimensions": {
@@ -24,7 +24,7 @@
           "text_position": 0,
           "units_format": 1
         },
-        "fab_line_width": 0.09999999999999999,
+        "fab_line_width": 0.1,
         "fab_text_italic": false,
         "fab_text_size_h": 1.0,
         "fab_text_size_v": 1.0,
@@ -37,15 +37,15 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.6985,
+          "height": 1.2065,
+          "width": 1.2065
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.7999999999999999,
-        "silk_text_size_v": 0.7999999999999999,
-        "silk_text_thickness": 0.09999999999999999,
+        "silk_text_size_h": 0.8,
+        "silk_text_size_v": 0.8,
+        "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.0
@@ -58,7 +58,26 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "missing_courtyard|111000000|100000000|3e1f272a-2b68-4530-a209-32f2100ccaaf|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|123000000|82000000|c1582a15-e352-4e97-8d3d-c951fee1b7ec|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|140000000|82000000|4d30cf7b-d798-491b-a4fc-d6d8f50a1735|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|169000000|100000000|1aaa4033-e06a-47ef-a38a-a9e1e8c04bef|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|125041960|99500000|8f5483f8-d4ec-46e6-a0a6-9a533f9ba83d|1844a842-dd03-4e02-9d4d-2a9b7094a1fe",
+        "silk_edge_clearance|130958040|100500000|8f5483f8-d4ec-46e6-a0a6-9a533f9ba83d|32ff025e-fb43-44e6-bc03-b47c56024e78",
+        "silk_edge_clearance|149041960|99500000|0b11f22c-4dea-48ba-9db9-c5968d958f35|3d600f7b-e953-49de-a3ca-628463a39c7e",
+        "silk_edge_clearance|154958040|100500000|0b11f22c-4dea-48ba-9db9-c5968d958f35|895ee358-3ce0-424f-904d-e1a576c75acb",
+        "silk_edge_clearance|183041960|99500000|150a3302-8e26-481f-828a-1e5517b2bfbc|57482b43-4b2d-49ff-be04-3bb469f2d684",
+        "silk_edge_clearance|188958040|100500000|150a3302-8e26-481f-828a-1e5517b2bfbc|117ad54a-ceb1-4c23-a66e-93fb4e9fb473",
+        "silk_edge_clearance|207041960|99500000|f1812f9b-8565-49de-92dd-a4cbb6f795fb|a658211d-dd94-49bb-9b94-a79155a22f9f",
+        "silk_edge_clearance|212958040|100500000|f1812f9b-8565-49de-92dd-a4cbb6f795fb|5a8b7a65-3b48-4dfc-adcb-d8b74b32f000",
+        "silk_edge_clearance|67041960|99500000|851d13fc-4c1c-4b46-a73f-f3d2b5e801a8|8c264589-d27e-45c8-8d04-a9886ecc8258",
+        "silk_edge_clearance|72958040|100500000|851d13fc-4c1c-4b46-a73f-f3d2b5e801a8|aa231518-0e86-4604-a62d-12677ecfed83",
+        "silk_edge_clearance|91041960|99500000|d6940acf-453a-4035-927b-93f3f0f70e4d|b5c0fe66-a8be-43f1-a52c-5fcc58f6463c",
+        "silk_edge_clearance|96958040|100500000|d6940acf-453a-4035-927b-93f3f0f70e4d|400dcfc6-bf05-4480-b52a-87f2e43a925f",
+        "starved_thermal|131175000|53250000|d72f464f-d69e-4ac6-80ad-6251457d099d|efd85d87-28c1-485f-8ccd-3b08cf85256b|F.Cu",
+        "starved_thermal|154750000|49500000|d72f464f-d69e-4ac6-80ad-6251457d099d|bfb17c36-cb3c-45a0-b166-23685527f8d1|B.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -120,16 +139,16 @@
         "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.19999999999999998,
-        "min_microvia_drill": 0.09999999999999999,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7999999999999999,
+        "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.19999999999999998,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.15,
-        "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.44999999999999996,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.45,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -447,7 +466,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "led-bar.kicad_pro",
+    "filename": "vfd-clock.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -471,14 +490,14 @@
       },
       {
         "bus_width": 12,
-        "clearance": 1.5,
+        "clearance": 0.6,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "190V",
+        "name": "50V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
@@ -491,7 +510,55 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/A1": "50V",
+      "/A2": "50V",
+      "/B": "50V",
+      "/C": "50V",
+      "/CommaLeft": "50V",
+      "/CommaRight": "50V",
+      "/D1": "50V",
+      "/D2": "50V",
+      "/Dash": "50V",
+      "/Dot": "50V",
+      "/E": "50V",
+      "/F": "50V",
+      "/G1": "50V",
+      "/G2": "50V",
+      "/H": "50V",
+      "/I": "50V",
+      "/J": "50V",
+      "/K": "50V",
+      "/L": "50V",
+      "/M": "50V",
+      "/high-side-switch/V_{Out}": "50V",
+      "/high-side-switch1/V_{Out}": "50V",
+      "/high-side-switch2/V_{Out}": "50V",
+      "/high-side-switch3/V_{Out}": "50V",
+      "/high-side-switch4/V_{Out}": "50V",
+      "/high-side-switch5/V_{Out}": "50V",
+      "/high-side-switch6/V_{Out}": "50V",
+      "/{A1 A2 B C D1 D2 E F G1 G2 H I J K  L M CommaLeft CommaRight Dot Dash}": "50V",
+      "Net-(D1-A)": "50V",
+      "Net-(D1-K)": "50V",
+      "Net-(D7-A)": "55V",
+      "Net-(D7-K)": "55V",
+      "Net-(Q10-C)": "50V",
+      "Net-(Q11-B)": "50V",
+      "Net-(Q12-C)": "50V",
+      "Net-(Q13-B)": "50V",
+      "Net-(Q14-C)": "50V",
+      "Net-(Q15-B)": "50V",
+      "Net-(Q2-C)": "50V",
+      "Net-(Q3-B)": "50V",
+      "Net-(Q4-C)": "50V",
+      "Net-(Q5-B)": "50V",
+      "Net-(Q6-C)": "50V",
+      "Net-(Q7-B)": "50V",
+      "Net-(Q8-C)": "50V",
+      "Net-(Q9-B)": "50V",
+      "Vdrive": "50V"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -646,8 +713,36 @@
   },
   "sheets": [
     [
-      "bad0a5fb-fa82-44f9-9177-ecc0a1269d10",
-      ""
+      "9acf7c96-4cba-4385-b538-330794fa905a",
+      "Root"
+    ],
+    [
+      "78450407-d188-43d3-96c8-9504fdc8fc86",
+      "high-side-switch"
+    ],
+    [
+      "f2e264c0-4702-40d2-9319-769266964fe3",
+      "high-side-switch1"
+    ],
+    [
+      "7b5ce5ea-69bf-4725-a39e-0892903b91fd",
+      "high-side-switch2"
+    ],
+    [
+      "e4931a44-739d-48df-8672-c4f9c084bdb4",
+      "high-side-switch3"
+    ],
+    [
+      "cae5650a-d8ae-4bbc-be00-e09e0b20edf1",
+      "high-side-switch4"
+    ],
+    [
+      "bc76f129-640e-4e25-8a5f-d42b3960238f",
+      "high-side-switch5"
+    ],
+    [
+      "e29ece96-0edc-4d6c-b1f7-730433d9b9ab",
+      "high-side-switch6"
     ]
   ],
   "text_variables": {}
