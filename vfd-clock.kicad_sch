@@ -2619,8 +2619,8 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
 				(at 0 5.08 0)
@@ -3802,8 +3802,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 -23.114 0)
+			(property "Value" "HV5812"
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5576,8 +5576,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 3.81 1.27 0)
+			(property "Value" "SN74HCS08"
+				(at 0 -10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5891,8 +5891,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 2.54 2.54 0)
+			(property "Value" "SN74HCS541"
+				(at 0 -14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -20872,7 +20872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 257.5052 261.62 0)
 			(effects
 				(font
@@ -21130,8 +21130,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 175.26 182.88 0)
+		(property "Value" "HV5812"
+			(at 175.26 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21301,7 +21301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 91.44 191.77 0)
 			(effects
 				(font
@@ -22378,8 +22378,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 345.44 184.15 0)
+		(property "Value" "SN74HCS08"
+			(at 345.44 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23048,7 +23048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mynixies:mynixies-IV-1"
+		(property "Footprint" "mynixies:IV-1"
 			(at 401.32 130.81 0)
 			(effects
 				(font
@@ -23495,7 +23495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 45.72 203.2 0)
 			(effects
 				(font
@@ -23563,7 +23563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 35.56 311.15 0)
 			(effects
 				(font
@@ -23696,7 +23696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 26.67 326.39 0)
 			(effects
 				(font
@@ -23760,7 +23760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 77.47 326.39 0)
 			(effects
 				(font
@@ -23822,7 +23822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 290.83 265.43 0)
 			(effects
 				(font
@@ -23889,7 +23889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 35.56 290.83 0)
 			(effects
 				(font
@@ -24173,7 +24173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 292.1 194.31 0)
 			(effects
 				(font
@@ -24444,7 +24444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 34.29 326.39 0)
 			(effects
 				(font
@@ -24507,7 +24507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 294.64 271.78 0)
 			(effects
 				(font
@@ -24842,7 +24842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 69.85 326.39 0)
 			(effects
 				(font
@@ -24906,7 +24906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 85.09 326.39 0)
 			(effects
 				(font
@@ -25035,7 +25035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 295.91 187.96 0)
 			(effects
 				(font
@@ -25233,7 +25233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 349.25 228.6 0)
 			(effects
 				(font
@@ -25370,7 +25370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 300.99 265.43 0)
 			(effects
 				(font
@@ -25634,7 +25634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 123.19 255.27 0)
 			(effects
 				(font
@@ -25702,7 +25702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "500mA Step-Down Converter with Sleep Mode, adjustable Output Voltage, 4.75-28V input voltage, WSON-10"
 			(at 321.31 231.14 0)
 			(effects
 				(font
@@ -26173,7 +26173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mynixies:mynixies-IV-1"
+		(property "Footprint" "mynixies:IV-1"
 			(at 387.35 130.81 0)
 			(effects
 				(font
@@ -26467,7 +26467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 116.84 255.27 0)
 			(effects
 				(font
@@ -26603,7 +26603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 91.44 33.02 0)
 			(effects
 				(font
@@ -26672,7 +26672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 129.54 255.27 0)
 			(effects
 				(font
@@ -27266,7 +27266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 293.37 228.6 0)
 			(effects
 				(font
@@ -27333,7 +27333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 86.36 33.02 0)
 			(effects
 				(font
@@ -28078,7 +28078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 19.05 326.39 0)
 			(effects
 				(font
@@ -28277,7 +28277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 311.15 184.15 0)
 			(effects
 				(font
@@ -28543,7 +28543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 104.14 255.27 0)
 			(effects
 				(font
@@ -28872,7 +28872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 332.74 274.32 0)
 			(effects
 				(font
@@ -29130,7 +29130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 91.44 186.69 0)
 			(effects
 				(font
@@ -29740,7 +29740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 49.53 326.39 0)
 			(effects
 				(font
@@ -30145,7 +30145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 57.15 326.39 0)
 			(effects
 				(font
@@ -30303,7 +30303,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c59e2854-9ea9-4ac4-88d5-d11f55ab848d")
 		(property "Reference" "U8"
 			(at 120.65 20.32 0)
@@ -30313,8 +30312,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 120.65 22.86 0)
+		(property "Value" "SN74HCS541"
+			(at 120.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30460,7 +30459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor"
 			(at 336.55 223.52 0)
 			(effects
 				(font
@@ -30734,7 +30733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 321.31 274.32 0)
 			(effects
 				(font
@@ -30999,7 +30998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 344.17 228.6 0)
 			(effects
 				(font
@@ -31068,7 +31067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 110.49 255.27 0)
 			(effects
 				(font
@@ -31128,7 +31127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ckswitches.com/media/2728/pts815.pdf"
+		(property "Datasheet" "~"
 			(at 27.94 204.47 0)
 			(effects
 				(font
@@ -31137,7 +31136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 33.02 204.47 0)
 			(effects
 				(font
@@ -31273,7 +31272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.taiwansemi.com/assets/datasheet/pdf.php?pn=HS1FFL"
+		(property "Datasheet" "~"
 			(at 242.57 252.73 0)
 			(effects
 				(font
@@ -31369,7 +31368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 344.17 238.76 0)
 			(effects
 				(font
@@ -31486,7 +31485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 224.4852 289.56 0)
 			(effects
 				(font
@@ -31983,7 +31982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 41.91 326.39 0)
 			(effects
 				(font
@@ -32163,7 +32162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMF"
 			(at 260.35 257.81 0)
 			(effects
 				(font
@@ -32172,7 +32171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_tpsmb_datasheet.pdf.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?85881"
 			(at 265.43 256.54 0)
 			(effects
 				(font
@@ -32181,7 +32180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 58Vrwm, SMF"
 			(at 265.43 257.81 0)
 			(effects
 				(font
@@ -32496,7 +32495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 246.38 185.7248 0)
 			(effects
 				(font
@@ -32918,7 +32917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 299.72 194.31 0)
 			(effects
 				(font
