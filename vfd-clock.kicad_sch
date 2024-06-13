@@ -17967,6 +17967,17 @@
 		)
 		(uuid "4d72c99d-3e84-4be6-8e4b-5eb376552f4c")
 	)
+	(text "-> bond wire to shift register data"
+		(exclude_from_sim no)
+		(at 97.79 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "045bfcd1-b668-4adb-b197-36e4ccbead67")
+	)
 	(text "voltage divider\n"
 		(exclude_from_sim no)
 		(at 359.41 212.09 0)
@@ -18198,6 +18209,17 @@
 			(justify left)
 		)
 		(uuid "7db4f99b-9b95-4aa3-855f-1bfe7760ec41")
+	)
+	(text "-> bond wire to shift register clock"
+		(exclude_from_sim no)
+		(at 97.79 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8740fd8c-6e3c-482f-87f8-beaa2452e5e2")
 	)
 	(text "heat filament current: 47mA\ngrid/anode segment voltage: 25V\ngrid/anode segment pulse voltage: 50-70V\n"
 		(exclude_from_sim no)
