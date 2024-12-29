@@ -1,6 +1,10 @@
 # nixie-clock-hardware
 Hardware for controlling six VFD IV-17 and two VFD IV-1 tubes as clock (HH:MM:SS) 
 
+![asssembled VFD-clock](img/photo_2024-12-29_21-03-52.jpg "asssembled VFD-clock")
+
+![asssembled VFD-clock](img/photo_2024-12-29_21-03-55.jpg "asssembled VFD-clock")
+
 ### Requirements for rev 1.0
 * efficient step-boost converter up to 50V
 * multiplexing
@@ -11,7 +15,7 @@ Hardware for controlling six VFD IV-17 and two VFD IV-1 tubes as clock (HH:MM:SS
 * time syncronisation line for every second
 
 ### Known issues in rev 1.0
-* octal buffer for PWM use seems do not works for dimming
+* octal buffer for PWM use seems do not works for dimming (firmware-based solution)
   * workaround: dimming solved by adding turn-off points in mulitplexing routine
 * SPI is not suitable for controlling 20-bit shift register
   * cut traces and wire up to another pins
